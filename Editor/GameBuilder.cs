@@ -11,6 +11,7 @@ class GameBuilder {
     "windows",
     "linux",
     "web",
+    "webgl",
     "ios",
     "android"
   };
@@ -82,6 +83,11 @@ class GameBuilder {
 
         case "web":
           runBuildFor(BuildTarget.WebPlayer, "web/game");
+          tryRunAfterCommand("UNITY_AFTER_WEB");
+          break;
+
+        case "webgl":
+          runBuildFor(BuildTarget.WebGL, "webgl/game");
           tryRunAfterCommand("UNITY_AFTER_WEB");
           break;
 
