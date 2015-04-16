@@ -40,6 +40,7 @@ Variable Name | Description
 `UNITY_AFTER_WINDOWS` | ""
 `UNITY_AFTER_LINUX` | ""
 `UNITY_AFTER_WEB` | ""
+`UNITY_AFTER_WEBGL` | ""
 `UNITY_AFTER_IOS` | ""
 `UNITY_AFTER_ANDROID` | ""
 

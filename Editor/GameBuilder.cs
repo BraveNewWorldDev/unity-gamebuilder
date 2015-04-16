@@ -88,7 +88,7 @@ class GameBuilder {
 
         case "webgl":
           runBuildFor(BuildTarget.WebGL, "webgl/game");
-          tryRunAfterCommand("UNITY_AFTER_WEB");
+          tryRunAfterCommand("UNITY_AFTER_WEBGL");
           break;
 
         case "ios":
